@@ -1,0 +1,58 @@
+>>>> Variáveis - 1
+
+programa {
+  funcao inicio() {
+    inteiro n1 = 8
+    inteiro n2 = 6
+    inteiro soma
+    soma = n1 + n2
+    escreva ("A soma dos valores foi: ", soma)
+  }
+}
+
+>>>> Variáveis - 2
+programa {
+  funcao inicio() {
+    inteiro n1, n2, soma
+    escreva ("Digite o primeiro valor:")
+    leia (n1)
+    escreva ("Digite o segundo valor:")
+    leia (n2)
+    soma = n1 + n2
+    escreva ("A soma dos valores foi: ", soma)
+  }
+}
+
+>>>> Prioridades
+programa
+{
+	funcao inicio()
+	{
+		real resultado
+
+		// Neste exemplo, a operação de multiplicação (*) será executada primeiro
+		resultado = 5.0 + 4.0 * 2.0
+		escreva("Operação: 5 + 4 * 2 = ", resultado) 
+
+
+		// Neste exemplo, a operação de soma (+) será executada primeiro
+		resultado = (5.0 + 4.0) * 2.0
+		escreva("\nOperação: (5 + 4) * 2 = ", resultado)		
+
+		/*
+		 * Neste exemplo, a operação de divisão (/) será executada primeiro, 
+		 * seguida pela operação de multiplicação (*). Por último, será 
+		 * executada a operação de soma (+)
+		 */
+		resultado = 1.0 + 2.0 / 3.0 * 4.0 
+		escreva("\nOperação: 1 + 2 / 3 * 4 = ", resultado)
+
+		/*
+		 * Neste exemplo, a operação de soma (+) será executada primeiro, 
+		 * seguida pela operação de multiplicação (*). Por último, será 
+		 * executada a operação de divisão (/).
+		 */
+		resultado = (1.0 + 2.0) / (3.0 * 4.0)
+		escreva("\nOperação: (1 + 2) / (3 * 4) = ", resultado, "\n")
+	}
+}
