@@ -7,8 +7,11 @@ Os exemplos de algoritmos presentes no repositório abrangem desde conceitos bá
 <div style="display: inline">
 <img width="35" heigth="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg"/><b>Aulas</b>
 </div>
-https://github.com/Amaral1973/logica_tds11/tree/main/Aula1
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>[Aula 1](https://github.com/Amaral1973/logica_tds11/tree/main/Aula1)
+</div>
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula2
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula3
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula4
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula5
+https://github.com/Amaral1973/logica_tds11/tree/main/Exercicios
