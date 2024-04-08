@@ -11,3 +11,4 @@ https://github.com/Amaral1973/logica_tds11/tree/main/Aula1
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula2
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula3
 https://github.com/Amaral1973/logica_tds11/tree/main/Aula4
+https://github.com/Amaral1973/logica_tds11/tree/main/Aula5
