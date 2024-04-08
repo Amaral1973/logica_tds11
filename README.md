@@ -6,5 +6,5 @@ Os exemplos de algoritmos presentes no repositório abrangem desde conceitos bá
 <p><b>Os materiais de estudo disponíveis no repositório oferecem uma abordagem abrangente e acessível para aqueles que desejam aprofundar seu conhecimento em lógica de programação.</b>
 
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+<img width='30' heigth='30' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
           
