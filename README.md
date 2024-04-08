@@ -7,11 +7,23 @@ Os exemplos de algoritmos presentes no repositório abrangem desde conceitos bá
 <div style="display: inline">
 <img width="35" heigth="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg"/><b>Aulas</b>
 </div>
+<br/>
 <div style="display: inline">
 <img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Aula1">Aula 1</a>
 </div>
-https://github.com/Amaral1973/logica_tds11/tree/main/Aula2
-https://github.com/Amaral1973/logica_tds11/tree/main/Aula3
-https://github.com/Amaral1973/logica_tds11/tree/main/Aula4
-https://github.com/Amaral1973/logica_tds11/tree/main/Aula5
-https://github.com/Amaral1973/logica_tds11/tree/main/Exercicios
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Aula2">Aula 2</a>
+</div>
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Aula3">Aula 3</a>
+</div>
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Aula4">Aula 4</a>
+</div>
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Aula5">Aula 5</a>
+</div>
+<br/>
+<div style="display: inline">
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Exercicios">Exercícios</a>
+</div>
