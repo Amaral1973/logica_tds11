@@ -1,0 +1,200 @@
+>>>>> Exercício 1
+programa {
+  funcao inicio() {
+    inteiro n1, n2
+    escreva ("Digite o primeiro número: ")
+    leia (n1)
+    escreva ("Digite o segundo número: ")
+    leia (n2)
+    limpa()
+    se (n1 > n2)
+    {
+      escreva ("O número ",n1," é maior que ",n2)
+    }
+    senao
+    {
+      escreva ("O número ",n2," é maior que ",n1)
+    }
+  }
+}
+
+>>>>> Exercício 2
+programa {
+  funcao inicio() {
+    inteiro n1,n2,n3
+    escreva ("Digite o primeiro número: ")
+    leia (n1)
+    escreva ("Digite o segundo número: ")
+    leia (n2)
+    escreva ("Digite o terceiro número: ")
+    leia (n3)
+    limpa()
+    se (n1 > n2 e n1 > n3)
+    {
+      escreva ("O número ",n1," é o maior!\n")
+    }
+    senao se (n2 > n1 e n2 > n3)
+    {
+      escreva ("O número ",n2," é o maior!\n")
+    }
+    senao
+    {
+      escreva ("O número ",n3," é o maior!\n")
+    }
+    se (n1 < n2 e n1 < n3)
+    {
+      escreva ("O número ",n1," é o menor!")
+    }
+    senao se (n2 < n1 e n2 < n3)
+    {
+      escreva ("O número ",n2," é o menor!")
+    }
+    senao
+    {
+      escreva ("O número ",n3," é o menor!")
+    }
+  }
+}
+
+>>>>> Exercício 3
+programa {
+  funcao inicio() {
+    real n1,n2,media
+    escreva ("Digite a 1º nota: ")
+    leia(n1)
+    escreva ("Digite a 2º nota: ")
+    leia(n2)
+    media = (n1 + n2) / 2
+    se (media < 7)
+    {
+      escreva ("REPROVADO!")
+    }
+    senao se (media >= 7 e media <= 9)
+    {
+      escreva ("APROVADO!")
+    }
+    senao
+    {
+      escreva ("Aprovado com louvor!")
+    }
+  }
+}
+
+>>>>> Exercício 4
+programa {
+  funcao inicio() {
+    inteiro i
+    real preco, barato
+    barato = 100000
+    para (i = 0; i < 3; i++)
+    {
+       escreva ("Digite o preco do produto ",i+1,":")
+       leia (preco)
+       se (preco < barato)
+       {
+        barato = preco
+       }
+    }
+    escreva ("O produto mais barato foi: ", barato)
+  }
+}
+
+>>>>> Exercício 5
+programa {
+  funcao inicio() {
+    inteiro num
+    escreva ("Digite um número inteiro positivo: ")
+    leia (num)
+    se (num % 2 == 0)
+    {
+      escreva ("O número ",num," é par!")
+    }
+    senao
+    {
+      escreva ("O número ", num," é ímpar!")
+    }
+  }
+}
+
+>>>>> Exercício 6
+programa {
+  funcao inicio() {
+    inteiro idade
+    escreva ("Digite a sua idade: ")
+    leia (idade)
+    se (idade >= 18 e idade <= 67)
+    {
+      escreva ("Você pode doar sangue!")
+    }
+    senao
+    {
+      escreva ("Você não pode doar sangue!")
+    }
+  }
+}
+
+>>>>> Exercício 7
+programa {
+  funcao inicio() {
+    inteiro a,b,c
+    a=10
+    b=20
+    escreva ("O valor da váriavel A é: ",a,".\n")
+    escreva ("O valor da váriavel B é: ",b,".\n")
+    c = a
+    a = b
+    b = c
+    escreva ("O valor da váriavel A é: ",a,".\n")
+    escreva ("O valor da váriavel B é: ",b,".\n")
+  }
+}
+
+>>>>> Exercício 8
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    inteiro numerosecreto, num, tentativas
+    tentativas = 0
+    numerosecreto = u.sorteia (1,30)
+    escreva ("Digite um numero inteiro de 1 até 30: ")
+    leia (num)
+    enquanto (numerosecreto != num)
+    {
+      se (num > numerosecreto)
+      {
+        escreva ("O NÚMERO SECRETO é menor!\n")
+      }
+      senao
+      {
+        escreva ("O NÚMERO SECRETO é maior!\n")
+      }
+      escreva ("Digite um numero inteiro de 1 até 30: ")
+      leia (num)
+      tentativas = tentativas + 1
+    }
+    limpa()
+    escreva ("Parabéns você acertou o NÚMERO SECRETO!!! O número era ",numerosecreto,"\nEm ",tentativas," tentativas.")
+  }
+}
+
+>>>>> Exercício 9
+programa {
+  funcao inicio() {
+    real temp, celsius
+    escreva ("Digite a temperatura em Farenheit: ")
+    leia (temp)
+    celsius = (temp-32)/1.8
+    escreva ("A temperatura em Celsius é: ",celsius,"°")
+  }
+}
+
+>>>>> Exercício 10
+programa {
+  funcao inicio() {
+    real velo, km
+    escreva ("Digite a velocidade em m/s: ")
+    leia (velo)
+    km = velo*3.6
+    escreva ("A velocidade foi: ",km," Km/h")
+  }
+}
