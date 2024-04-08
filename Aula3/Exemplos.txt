@@ -1,0 +1,115 @@
+>>>>>> Exemplo 1
+
+programa {
+  funcao inicio() {
+    inteiro idade
+    escreva("Digite a sua idade: ")
+    leia(idade)
+    se (idade >= 21)
+    {
+      escreva ("\nVocê tem maioridade!")
+    }
+    senao
+    {
+      escreva ("\nVocê não alcançou a maioridade ainda!")
+    }
+  }
+}
+
+>>>>>> Exemplo 2
+
+programa
+{
+	inclua biblioteca Util --> util
+	
+	funcao inicio()
+	{
+		inteiro num_digitado, num_sorteado
+
+		escreva("Informe um número de 0 a 6: ")
+		leia(num_digitado)
+
+		num_sorteado = util.sorteia(0, 6)
+
+		se (num_digitado >= 0 e num_digitado <= 6)
+		{
+			se (num_digitado == num_sorteado) // verifica se o valor sorteado é igual ao valor digitado pelo usuário 
+			{
+				escreva("Os números são iguais!")
+			}
+			senao
+			{
+				escreva("Os números são diferentes!")
+			}
+
+			escreva("\n\nNúmero digitado: ", num_digitado)
+			escreva("\nNúmero sorteado: ",  num_sorteado, "\n")
+		}
+		senao 
+		{
+			escreva("O número digitado deve estar entre 0 e 6\n")
+		}
+	}
+}
+
+>>>>> Exercício 1
+
+programa  
+{
+	funcao inicio ()
+	{ 	
+		caracter letra
+		
+		escreva("Digite uma letra: ")
+		leia(letra)
+
+		// O Portugol diferencia caracteres minúsculos e maiúsculos, 
+		// portanto é preciso verificar ambos os casos
+		
+		se 
+		(
+			letra == 'A' ou letra == 'E' ou letra == 'I' ou letra == 'O' ou letra == 'U' ou
+			letra == 'a' ou letra == 'e' ou letra == 'i' ou letra == 'o' ou letra == 'u'			
+		)
+		{ 
+			escreva("\nA letra '", letra, "' é uma vogal\n") 
+		}
+		senao
+		{
+			escreva("\nA letra '", letra, "' é uma consoante\n") 
+		}		
+	} 
+}
+
+>>>>> Exercício 2
+
+programa
+{
+	funcao inicio()
+	{
+		inteiro numero, multiplo
+		
+		escreva("Digite um número: ")
+		leia(numero)
+
+		/* 
+		 *  Para verificar se um número é múltiplo de outro utiliza-se a operação
+		 *  módulo, representada no Portugol pela operador %.
+		 *  
+		 *  Se o resultado da operação for 0, então um número é múltiplo do outro.
+		 */
+
+		limpa()
+		
+		se (numero % 5 == 0) 
+		{
+			escreva("O número ", numero, " é multiplo de 5")	
+		}
+		senao
+		{
+			escreva("O número ", numero, " não é multiplo de 5")
+		}
+
+		escreva("\n")
+	}
+}
