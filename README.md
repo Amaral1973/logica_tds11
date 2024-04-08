@@ -25,5 +25,6 @@ Os exemplos de algoritmos presentes no repositório abrangem desde conceitos bá
 </div>
 <br/>
 <div style="display: inline">
-<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Exercicios">Exercícios</a>
+<img width="20" heigth="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/readthedocs/readthedocs-original.svg"/>&nbsp;<a href="https://github.com/Amaral1973/logica_tds11/tree/main/Exercicios">Exercícios</a>
 </div>
+          
