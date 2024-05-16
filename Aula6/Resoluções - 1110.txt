@@ -1,0 +1,96 @@
+>>>> Case 1
+
+using static System.Console;
+
+string[] nomes = {"Pedro", "Maria", "João", "Beatriz", "Roberto"};
+WriteLine();
+WriteLine("O tamanho do array é: " + nomes.Length);
+WriteLine();
+Array.Sort(nomes);
+WriteLine("Os nomes são.........");
+foreach (string n in nomes)
+{
+    WriteLine(n);
+}
+WriteLine();
+string novonome = "Kassandra";
+List<string> adnome = new List<string>(nomes.ToList());
+adnome.Add(novonome);
+nomes = adnome.ToArray();
+WriteLine("O tamanho do array é: " + nomes.Length);
+WriteLine();
+Array.Sort(nomes);
+WriteLine("Os nomes são.........");
+foreach (var item in nomes)
+{
+    WriteLine(item);
+}
+ReadKey();
+
+>>>>Case 2
+
+using System.Xml.Schema;
+using static System.Console;
+int[] numeros = new int[5];
+WriteLine("Digite 5 números...");
+WriteLine("Pressione ENTER para cada número digitado...");
+for (int n = 0; n < numeros.Length; n++)
+{
+    numeros[n] = Convert.ToInt32(ReadLine());
+}
+Clear();
+WriteLine("----------------------------------------");
+WriteLine("Estes são os números que você digitou...");
+for (int i = 0; i < numeros.Length; i++)
+{
+    WriteLine(numeros[i]);
+}
+ReadKey();
+
+>>>>Case 3
+
+using static System.Console;
+int[] numeros = new int[10];
+int[] pares = new int[10];
+int[] impares = new int[10];
+for (int i = 0; i < numeros.Length; i++)
+{
+    WriteLine("Digite um valor maior que zero");
+    numeros[i] = Convert.ToInt32(ReadLine());
+}
+for (int p = 0; p < numeros.Length; p++)
+{
+    if (numeros[p] % 2 == 0)
+    {
+        pares[p] = numeros[p];
+    }
+    else
+    {
+        impares[p] = numeros[p];
+    }
+}
+Array.Sort(numeros);
+Array.Sort(pares);
+Array.Sort(impares);
+Clear();
+WriteLine("Estes são os números digitados");
+WriteLine("------------------------------");
+foreach (var item in numeros)
+{
+    WriteLine(item);
+}
+WriteLine();
+WriteLine("Estes são os números pares");
+WriteLine("------------------------------");
+foreach (var nump in pares)
+{
+    WriteLine(nump);
+}
+WriteLine();
+WriteLine("Estes são os números ímpares");
+WriteLine("------------------------------");
+foreach (var numi in impares)
+{
+    WriteLine(numi);
+}
+ReadKey();

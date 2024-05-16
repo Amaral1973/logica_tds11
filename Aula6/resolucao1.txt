@@ -1,0 +1,16 @@
+int[] numeros = new int[5];
+
+Console.WriteLine("Digite 5 números (pressione Enter para cada número");
+
+// Armazena dados no vetor
+for (int p = 0; p < numeros.Length; p++)
+{
+    numeros[p] = Convert.ToInt32(Console.ReadLine());
+}
+
+// Recupera os dados armazenados no vetor
+Console.WriteLine("\n\nEstes são os números que você digitou");
+for (int p = 0; p < numeros.Length; p++)
+{
+    Console.WriteLine(numeros[p]);
+}
