@@ -1,0 +1,66 @@
+using static System.Console;
+
+List<string> nome = new List<string>();
+nome.Add("José");
+nome.Add("Maria");
+nome.Add("João");
+nome.Add("Ruth");
+foreach (var item in nome)
+{
+    WriteLine(item);
+}
+WriteLine();
+WriteLine(nome[2]);
+WriteLine();
+WriteLine("Quantidade de registros:" + nome.Count);
+WriteLine("Capacidade da minha lista:" + nome.Capacity);
+WriteLine();
+nome.Insert(2, "Nicolau");
+string[] novosnomes = {"novonome1","novonome2","novonome3"};
+nome.InsertRange(3, novosnomes);
+foreach (var item2 in nome)
+{
+    WriteLine(item2);
+}
+WriteLine();
+nome.Remove("novonome1");
+nome.RemoveAt(4);
+nome.RemoveRange(3, 2);
+foreach (var item3 in nome)
+{
+    WriteLine(item3);
+}
+WriteLine();
+int idx = nome.IndexOf("Ruth");
+if (idx >= 0)
+{
+    WriteLine($"Item na lista nº:{idx}");
+}
+else
+{
+    WriteLine("Item não encontrado!!!");
+}
+WriteLine();
+nome.Add("Brian");
+nome.Sort();
+foreach (var item4 in nome)
+{
+    WriteLine(item4);
+}
+WriteLine();
+nome.Reverse();
+foreach (var item5 in nome)
+{
+    WriteLine(item5);
+}
+WriteLine();
+foreach (var item6 in nome)
+{
+    WriteLine(item6);
+}
+WriteLine();
+nome[3] = "Josefa";
+foreach (var item7 in nome)
+{
+    WriteLine(item7);
+}

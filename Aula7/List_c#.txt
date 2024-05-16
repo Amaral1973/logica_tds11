@@ -1,0 +1,49 @@
+using System.Collections;
+using static System.Console;
+//criando uma lista
+ArrayList nomes = new ArrayList();
+//adicionando itens na lista
+nomes.Add("José Alves");
+nomes.Add("Maria Valentina");
+nomes.Add("João Mário");
+nomes.Add("Benedita Leite");
+nomes.Add("Murilo Oliveira");
+//propriedades de uma lista
+WriteLine("Quantidade de registros: " + nomes.Count);
+WriteLine("Capacidade: " + nomes.Capacity);
+//interagindo em uma lista
+foreach (string a in nomes)
+    WriteLine(a);
+//inserindo um novo registro na lista a partir da posição 3
+nomes.Insert(3, "Luzia José");
+WriteLine();
+foreach (string b in nomes)
+    WriteLine(b);
+WriteLine();
+//inserindo um conjunto de registros na lista
+string[] novosnomes = { "novo nome1", "novo nome2", "novo nome3" };
+nomes.InsertRange(2, novosnomes);
+foreach (string c in nomes)
+    WriteLine(c);
+WriteLine();
+//removendo item da lista
+nomes.Remove("novo nome1");
+foreach (string d in nomes)
+    WriteLine(d);
+//pesquisando um item na lista
+int idx = nomes.IndexOf("João Mário");
+if (idx > 0)
+    Console.WriteLine($"Item index na Lista é: {idx}");
+else
+    Console.WriteLine("Item não encontrado");
+//classificando itens de uma lista
+nomes.Sort();
+WriteLine();
+foreach (string e in nomes)
+    WriteLine(e);
+//colocando em ordem inversa itens de uma lista
+nomes.Reverse();
+WriteLine();
+foreach (string f in nomes)
+    WriteLine(f);
+ReadKey();

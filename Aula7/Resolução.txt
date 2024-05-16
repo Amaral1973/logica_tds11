@@ -1,0 +1,56 @@
+1
+
+using static System.Console;
+List<string> nomes = new List<string>();
+for (int i = 0; i < 10; i++)
+{
+    WriteLine($"Digite o {i+1}º nome:");
+    nomes.Add(ReadLine());
+}
+Clear();
+WriteLine("================================");
+WriteLine("=       Lista Digitada         =");
+WriteLine("================================");
+WriteLine();
+foreach (string item in nomes)
+{
+    WriteLine(item);
+}
+WriteLine();
+WriteLine("Primeiro item:" + nomes[0]);
+WriteLine("Último item:" + nomes[9]);
+ReadKey();
+
+2
+
+using static System.Console;
+List<string> alunos = new List<string>();
+List<int> notas = new List<int> ();
+for (int i = 0; i < 10; i++)
+{
+    WriteLine($"Digite o {i+1}º aluno:");
+    alunos.Add(ReadLine());
+    WriteLine($"Digite a {i + 1}º nota do aluno:");
+    notas.Add(Convert.ToInt32(ReadLine()));
+}
+Clear();
+WriteLine("================================");
+WriteLine("=       Lista Digitada         =");
+WriteLine("================================");
+WriteLine();
+int soma = 0;
+int media = 0;
+foreach (int item in notas)
+{
+    soma += item;
+}
+media = soma / 10;
+WriteLine("A média dos alunos foi:" + media);
+WriteLine();
+int posicao = 0;
+foreach (string aluno in alunos)
+{
+    WriteLine($"Aluno: {aluno} - Nota: {notas[posicao]}");
+    posicao++;
+}
+ReadKey();
